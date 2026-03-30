@@ -1,31 +1,70 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9; /* light theme */
-    color: #333;
     margin: 0;
-    padding: 0;
+    background: #ffffff;
+    color: #111;
 }
 
-h1 {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
+/* HERO */
+.hero {
     text-align: center;
+    padding: 80px 20px;
 }
 
-h2 {
-    color: #4CAF50;
-    margin-left: 20px;
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
 }
 
-p {
-    margin-left: 20px;
-    font-size: 16px;
+.role {
+    font-size: 18px;
+    color: #555;
 }
 
+.tagline {
+    margin-top: 10px;
+    color: #777;
+}
+
+/* SECTIONS */
 section {
-    margin: 20px;
-    padding: 10px;
-    background-color: white;
+    width: 80%;
+    margin: 60px auto;
+}
+
+/* PROJECTS */
+.projects h2 {
+    margin-bottom: 20px;
+}
+
+.project-card {
+    border: 1px solid #eee;
+    padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.project-desc {
+    color: #555;
+}
+
+.tools {
+    font-size: 14px;
+    color: #888;
+}
+
+/* ABOUT */
+.about p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* CONTACT */
+.contact p {
+    color: #555;
 }
